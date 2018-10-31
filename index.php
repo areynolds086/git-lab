@@ -11,5 +11,12 @@ $f3->route('GET /', function(){
     echo '<h1>Git Lab</h1>';
 });
 
+$f3->route('GET /page1',
+    function() {
+        $view = new View;
+        echo $view->render('views/page1.html');
+    });
+
 //Run fat free
 $f3->run();
+

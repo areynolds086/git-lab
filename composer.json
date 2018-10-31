@@ -1,0 +1,16 @@
+{
+  "name": "areynolds/355/git-lab",
+  "authors": [
+    {
+      "name": "Aaron Reynolds",
+      "email": "areynold8@mail.greenriver.edu"
+    },
+    {
+      "name": "Bradley Seyler",
+      "email": "Bseyler@mail.greenriver.edu"
+    }
+  ],
+  "require" : {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
